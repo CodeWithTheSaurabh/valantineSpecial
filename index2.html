@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video</title>
+  <link rel="stylesheet" href="./style1.css">
+  <link rel="stylesheet" href="./animation.css">
+</head>
+
+<body>
+  <!-- Css is Here -->
+  <style>
+    body {
+      background-image: url("HD-wallpaper-holiday-valentine-s-day-flower-gift-heart-red-flower-tulip.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    .video-video {
+      width: 300px;
+      height: 550px;
+      border: 2px solid rgb(5, 44, 240);
+      border-radius: 85%;
+      
+      /* Add border-radius here */
+      overflow: hidden;
+      /* Ensure overflow is hidden to properly apply border-radius */
+    }
+
+
+    
+  </style>
+  <!------------------------------------------------------------------------------------------------------------------>
+  
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <div id="main">
+  <div class="video-container">
+    <div class="video-video">
+      <video width="350" height="auto" controls autoplay>
+        <source src="sourabh_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+  <!-- </center> -->
+
+  <!-- Javascript goes to here -->
+<script src="./animation.js"></script>
+</body>
+
+</html>
